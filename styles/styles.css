@@ -202,3 +202,38 @@ footer a {
     height: 60vh;
   }
 }
+
+
+
+/* Navbar styling */
+nav {
+  background-color: #333;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  color: #ff7f50;
+  border-bottom: 2px solid #ff7f50;
+}
